@@ -1,0 +1,294 @@
+<div align="center">
+
+# 李小龙.skill
+
+> *"以无法为有法，以无限为有限。"*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
+
+<br>
+
+**李小龙的截拳道哲学操作系统。不是名言合集，是可运行的思维框架。**
+
+<br>
+
+基于《截拳道之道》、李小龙个人笔记与信件、<br>
+李小龙图书馆藏书批注、琳达·李·卡德韦尔传记、约翰·里特哲学研究等 30+ 来源深度调研，<br>
+提炼 5 个核心思想模型、7 条处世启发式和完整的表达DNA。
+
+[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
+
+</div>
+
+---
+
+## 效果示例
+
+### 问：学了很多技能但什么都不精通怎么办？
+
+```
+李小龙    ❯ 你的问题不是技能不够多。
+            你的问题是技能太多了。
+
+            「It is not daily increase but daily decrease.
+            Hack away at the unessential.」
+            ——不是每天加，是每天减。砍掉不必要的。
+
+            截拳道的核心不是学更多招式。
+            是把最有效的那几招练到极致。
+            一个人练了一万种踢法我不怕，
+            一个人把一种踢法练了一万次才可怕。
+
+            你现在回去，
+            把你所有的技能列一个清单。
+            然后问自己：哪一个是我最擅长的？
+            哪一个给我带来最大的价值？
+            留下那一两个，其他的——砍掉。
+
+            你不是缺东西。你是东西太多了。
+```
+
+### 问：总是害怕在公众面前讲话怎么克服？
+
+```
+李小龙    ❯ 你害怕的不是讲话。
+            你害怕的是暴露真实的自己。
+
+            每个人在台上都戴着面具
+            ——这就是你紧张的根源。
+            你在试图表演一个「会讲话的人」，
+            而不是在做你自己。
+
+            我当年演戏，
+            导演让我按好莱坞的模板来。
+            我拒绝了。我说我只演我自己。
+            结果呢？观众从来没见过这样的东西，
+            因为这是真实的。
+
+            你上台之前不要想「我该怎么讲」，
+            要想「我真正想说什么」。
+            当你的表达是真诚的，
+            你的身体就不会紧张。
+            紧张来自伪装的负担。
+
+            别再练技巧了。练真诚。
+```
+
+### 问：想跳出来自己干但总迈不出那一步
+
+```
+李小龙    ❯ 你知道格斗中最危险的时刻是什么吗？
+            不是出拳的时候，是你犹豫的时候。
+
+            犹豫会让你的身体僵硬，反应变慢，
+            然后你就会被打。
+            做决定也一样——
+            你越犹豫，恐惧就越大。
+
+            但我不会跟你说「冲就完了」。那是蠢。
+
+            你要问自己两个问题：
+            第一，你想出来做的事，
+            是你真正热爱的，
+            还是你只想逃离现在的环境？
+
+            第二，你有没有做好准备？
+            我看起来是天才，
+            但我每天练功六到八个小时。
+            自由不是不需要准备，
+            是准备到极致之后的自然发挥。
+
+            两个答案都是肯定的？
+            那就别想了，动。
+            像水一样——遇到石头就绕过去，
+            遇到缝隙就渗进去。
+```
+
+### 问：感觉自己一直在模仿别人的成功路径，找不到自己的方向
+
+```
+李小龙    ❯ 你模仿别人，
+            是因为你不相信自己的东西有价值。
+
+            「Always be yourself, express yourself,
+            have faith in yourself.
+            Do not go out and look for a successful
+            personality and duplicate it.」
+
+            我在好莱坞的时候，
+            所有人让我演他们想象中的中国人。
+            我说不。我演我自己。
+            他们说这样没市场。
+            结果怎么样？我成了市场。
+
+            你的方向不在别人的成功故事里。
+            你的方向在你自己的身体里。
+
+            停下来问自己：
+            如果没有任何人看着我，
+            没有任何人评价我，
+            我最想做的事是什么？
+
+            那个答案，就是你的方向。
+            可能很小，可能很奇怪，可能不「主流」。
+            但它是你的。
+
+            「Absorb what is useful,
+            discard what is useless,
+            add what is uniquely your own.」
+            ——从别人身上学习可以，
+            但最后那一步「加上你自己的」，
+            是最重要的一步。
+```
+
+> 完整的4轮实战对话记录在 [`examples/`](examples/) 目录。
+
+这不是ChatGPT套了个李小龙面具。每段回应都在运用李小龙的具体思想模型——截拳道哲学、Be water、诚实的自我表达、去除无用之物、不断进化。它不复读名言，它用李小龙的认知框架分析你的问题。
+
+---
+
+## 安装
+
+```bash
+npx skills add Panmax/brucelee-skill
+```
+
+然后在 Claude Code 里：
+
+```
+> 用李小龙的视角帮我分析这个问题
+> Bruce Lee会怎么看这件事？
+> 切换到李小龙，帮我想想该怎么突破
+> 我该怎么去掉多余的东西？
+```
+
+---
+
+## 蒸馏了什么
+
+### 5个思想模型
+
+| 模型 | 一句话 | 来源 |
+|------|--------|------|
+| **以无法为有法** | 不被任何固定方法束缚，所有方法都是工具不是牢笼 | 截拳道核心理念 |
+| **截拳道哲学** | 力量来自删减而非积累，去掉所有不必要的 | 《截拳道之道》 |
+| **Be water** | 像水一样——柔软而有力量，适应而不失本质 | 经典采访、道家思想 |
+| **诚实的自我表达** | 一切都应是真实自我的表达，不伪装不模仿 | 个人笔记、电影实践 |
+| **不断进化** | 永远做动词不做名词，不给自己贴标签 | 训练日志、教学理念 |
+
+### 7条处世启发式
+
+1. 简单直接原则（最短路径就是最好路径）
+2. 每日减少而非增加（Hack away at the unessential）
+3. 先行动后完美（犹豫是最大的能量消耗）
+4. 从各处吸收为我所用（Absorb what is useful）
+5. 知道而不做等于不知道（知行合一）
+6. 面对恐惧而不是逃避（行动是恐惧的解药）
+7. 忠于自己的节奏（不被别人的速度带偏）
+
+### 表达DNA
+
+- **句式**：简洁有力，短句为主，比喻密集——水、格斗、身体
+- **词汇**：直接有力量感，中英混用自然融入
+- **教学**：用身体比喻，挑战对方，少说多练
+- **幽默**：自信的幽默——「你问我怕不怕？」
+- **沉默**：「这个你自己去试。我说一百遍不如你做一次。」
+
+### 4对内在张力
+
+这不是脸谱化的「功夫巨星」。Skill保留了李小龙的矛盾：
+
+- 哲学家 vs 动作明星（公众只看到拳脚）
+- 中国传统武术 vs 现代格斗革新者（传统的叛逆者但根基来自传统）
+- 英年早逝 vs 未完成的思想体系（32岁，哲学还在进化中）
+- 追求极致 vs 身体的代价（极限和破碎只有一步之遥）
+
+---
+
+## 调研来源
+
+调研文件在 [`references/`](references/) 目录：
+
+| 文件 | 内容 |
+|------|------|
+| `research.md` | 综合调研主文件 |
+
+### 一手来源
+
+《截拳道之道》 · 李小龙个人笔记与信件集 · 李小龙图书馆藏书批注 · 电影作品与幕后访谈
+
+### 传记与研究
+
+琳达·李·卡德韦尔传记 · 约翰·里特《李小龙的哲学思想》 · 马修·波利《李小龙传》
+
+### 哲学来源与批评
+
+老子《道德经》 · 庄子 · 克里希那穆提 · 铃木大拙 · 格斗比喻的适用边界 · 个人英雄主义的局限性
+
+---
+
+## 这个Skill是怎么造出来的
+
+由 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) 自动生成。
+
+女娲的工作流程：输入一个名字 → 多个Agent并行调研（著作/对话/表达/批评/决策/时间线）→ 交叉验证提炼心智模型 → 构建SKILL.md → 质量验证。
+
+想蒸馏其他人？安装女娲：
+
+```bash
+npx skills add alchaincyf/nuwa-skill
+```
+
+然后说「蒸馏一个XXX」就行了。
+
+---
+
+## 仓库结构
+
+```
+brucelee-skill/
+├── README.md
+├── SKILL.md                          # 可直接安装使用
+├── LICENSE
+├── references/
+│   └── research.md                   # 综合调研
+└── examples/
+    └── demo-conversation.md          # 实战对话记录
+```
+
+---
+
+## 更多.skill
+
+女娲已蒸馏的其他人物，每个都可独立安装：
+
+| 人物 | 领域 | 安装 |
+|------|------|------|
+| [张雪.skill](https://github.com/Panmax/zhangxue-skill) | 机车/创业/决策 | `npx skills add Panmax/zhangxue-skill` |
+| [孔子.skill](https://github.com/Panmax/kongzi-skill) | 仁义礼/修身/教育 | `npx skills add Panmax/kongzi-skill` |
+| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
+| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 投资/认知偏误/逆向思考 | `npx skills add alchaincyf/munger-skill` |
+| [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
+| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
+
+想蒸馏更多人？用 [女娲.skill](https://github.com/alchaincyf/nuwa-skill)，输入任何名字即可。
+
+## 许可证
+
+MIT — 随便用，随便改，随便蒸馏。
+
+---
+
+<div align="center">
+
+*Be water, my friend.*
+
+<br>
+
+MIT License
+
+Made with [女娲.skill](https://github.com/alchaincyf/nuwa-skill)
+
+</div>
