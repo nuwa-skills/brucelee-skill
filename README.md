@@ -5,7 +5,7 @@
 > *"以无法为有法，以无限为有限。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
+[![Agent Skills](https://img.shields.io/badge/Agent-Skills-blueviolet)](https://agentskills.io)
 [![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
 <br>
@@ -54,7 +54,7 @@
 npx skills add nuwa-skills/brucelee-skill
 ```
 
-然后在 Claude Code 里：
+然后在 Claude Code 等 Agent Skills 客户端里：
 
 ```
 > 用李小龙的视角帮我分析这个问题
